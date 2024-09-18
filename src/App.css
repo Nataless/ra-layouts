@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/icon?family=Material+Icons');
+
+.material-icons {
+  font-family: 'Material Icons';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px;  /* Preferred icon size */
+  display: inline-block;
+  line-height: 1;
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+
+  /* Support for all WebKit browsers. */
+  -webkit-font-smoothing: antialiased;
+  /* Support for Safari and Chrome. */
+  text-rendering: optimizeLegibility;
+
+  /* Support for Firefox. */
+  -moz-osx-font-smoothing: grayscale;
+
+  /* Support for IE. */
+  font-feature-settings: 'liga';
+}
+
+.store {
+  width: 100%;
+  max-width: 1024px;
+  padding: 40px 0;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+.btn-block {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.btn-block__switch {
+  margin-bottom: 20px;
+
+  font-size: 42px;
+
+  cursor: pointer;
+}
+
+.shopCard {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 40px
+}
+
+.card {
+  position: relative;
+
+  width: 300px;
+  height: 300px;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.card__picture {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: -1;
+
+  width: 100%;
+  height: 100%;
+}
+
+.card__image {
+  width: inherit;
+  height: inherit;
+
+  object-fit: contain;
+}
+
+.card__name {
+  margin-bottom: 10px;
+
+  font-size: 24px;
+  text-align: center;
+
+  text-transform: uppercase;
+}
+
+.card__color {
+  text-align: center;
+}
+
+.card__flex {
+  position: absolute;
+  bottom: 10px;
+  left: 0;
+  right: 0;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+
+  color: red;
+}
+
+.card__price {
+  font-size: 24px;
+}
+
+.card__btn {
+  padding: 10px;
+  border: 1px solid red;
+  border-radius: 20px;
+
+  font-size: 18px;
+  text-transform: uppercase;
+
+  cursor: pointer;
+}
+
+.item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px;
+
+  background: #f6f6f6;
+}
+
+.item__picture {
+  width: 100px;
+  height: 100px;
+}
+
+.item__image {
+  width: inherit;
+  height: inherit;
+
+  object-fit: contain;
+}
+
+.item__name {
+  font-size: 24px;
+  text-transform: uppercase;
+}
+
+.item__price {
+  font-size: 24px;
+
+  color: red;
+}
+
+.item__btn {
+  padding: 10px;
+  border: 1px solid red;
+  border-radius: 20px;
+
+  font-size: 18px;
+  text-transform: uppercase;
+
+  color: red;
+
+  cursor: pointer;
+}
